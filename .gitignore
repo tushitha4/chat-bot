@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+package-lock.json
+frontend/package-lock.json
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+.next/
+out/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database
+chroma_db/
+*.db
+*.sqlite
+
+# Logs
+*.log
+logs/
+
+# Cache
+.cache/
+.pytest_cache/
+
+# Temporary files
+*.tmp
+*.temp
